@@ -3,13 +3,18 @@
 
 Trying out playwright to see what all the fuss is about.
 
+### install using
+```npm install```
 
-####### Scenario: Should be on the sportsdirect main page
+### Run using:
+```npx jest```
+
+###### Scenario: Should be on the sportsdirect main page
 When: I load SportsDirect.com 
 Then: the page title is "TOP SNEAKERS"
 And: The header equals "SportsDirect.com – The UK’s No 1 Sports Retailer"
 
-####### Scenario: Should search for super shoes and add to cart
+###### Scenario: Should search for super shoes and add to cart
 Given: I am seeing the page from other country than Latvia
 When: Change language modal is visible
 Then: I dismiss change language modal
@@ -26,10 +31,3 @@ When: I click on View Cart
 Then: MY BAG page is displayed
 And: I can see "Response Super Mens Training Shoes" present on the page
 
-
-
-### install using
-```npm install```
-
-### Run using:
-```npx jest```

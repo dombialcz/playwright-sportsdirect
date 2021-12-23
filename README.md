@@ -1,7 +1,9 @@
 # playwright-sportsdirect
 
 
-Trying out playwright to see what all the fuss is about.
+Trying out playwright to see what all the fuss is about.  
+  
+Please Note: There is an issue with chromium not closing correctly https://github.com/microsoft/playwright/issues/4218
 
 ### install using
 ```npm install```
